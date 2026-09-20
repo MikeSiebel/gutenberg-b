@@ -1,0 +1,17 @@
+{
+	"name": "myblock",
+	"version": "1.0.0",
+	"description": "Gutenberg block",
+	"scripts": {
+		"s": "wp-scripts start",
+		"b": "wp-scripts build",
+		"format": "wp-scripts format"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^30.0.0"
+	},
+	"dependencies": {
+		"@wordpress/block-editor": "^14.0.0",
+		"@wordpress/blocks": "^13.0.0"
+	}
+}

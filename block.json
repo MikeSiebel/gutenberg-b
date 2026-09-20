@@ -1,0 +1,9 @@
+{
+	"apiVersion": 2,
+	"name": "msiebel/myblock",
+	"title": "My Block",
+	"description": "Gutenberg Block",
+	"category": "text",
+	"icon": "admin-customizer",
+	"editorScript": "file:./build/index.js"
+}
