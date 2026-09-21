@@ -1,10 +1,10 @@
 import { registerBlockType } from "@wordpress/blocks";
+import Edit from "./edit";
+import Save from "./save";
+import "./style.scss";
+
 
 registerBlockType("msiebel/myblock", {
-  edit: function () {
-    return <h1 className="admin_title">Edit 5</h1>;
-  },
-  save: function () {
-    return <h1 className="front_title">Save 7</h1>;
-  },
+  edit: Edit,
+  save: Save,
 });

@@ -5,5 +5,7 @@
 	"description": "Gutenberg Block",
 	"category": "text",
 	"icon": "admin-customizer",
-	"editorScript": "file:./build/index.js"
+	"editorScript": "file:./build/index.js",
+	"style": "file:./build/style-index.css",
+	"editorStyle": "file:./build/index.css"
 }
